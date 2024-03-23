@@ -1,0 +1,157 @@
+
+
+.banner{
+    background-image: url(Captura\ de\ pantalla\ 2023-10-27\ 163831.png);
+    width: 100%;
+    height: 100px;
+    padding-top: 2px;
+    box-shadow: 0 0 20px black;
+}
+
+.bainer{
+    width: 100%;
+    height: 120px;
+    padding-top: 2px;
+    box-shadow: 0 0 20px black;
+    background-color: orange;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: left;
+}
+
+.bainer img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: block;
+    margin-top: -55px;
+}
+
+nav{
+    float: right;
+}
+
+.bainer nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 150px;
+    padding-top: 30px;
+    padding-left: 200px;
+    font-size: large;
+
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.presentacion{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacion{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacion button{
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.informacion button:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+.presentacion{
+    max-width: 300px;
+    filter: drop-shadow(0 1mm 3mm rgba(255,166,0,0.468));
+}
+
+.comida{
+    width: 90%;
+    margin-inline: auto;
+}
+
+.plato{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 85px;
+}
+
+.comida-titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+
+.plato{
+    width: 80%;
+    margin-inline: auto;
+    background-color: orange;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(196, 196, 196, 0.426);
+}
+
+.plato img{
+    width: 150px;
+    filter: drop-shadow(0 0 0.9rem white);
+    margin-top: left;
+}
+
+.plato p{
+    font-size: 15px;
+    color: rgb(240, 240, 240);
+}
+
+.plato-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.plato-info p{
+    font-weight: 900;
+}
+
+.plato-info button{
+    background-color: orange;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 900;
+    padding: 5px 12px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.plato-info button:hover{
+    cursor: pointer;
+}
